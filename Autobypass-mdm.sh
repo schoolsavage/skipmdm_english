@@ -12,17 +12,17 @@ echo -e "${YEL}*      ꒷꒦꒷︶˚︶︶꒷꒦˚꒦꒷︶˚︶︶꒷꒦˚︶˚
 echo -e "${YEL}* ㅤ𓀐𓂸𓀐𓂸𓀐𓂸𓀐𓂸𓀐𓂸𓀐𓂸𓀐𓂸𓀐. *${NC}"
 echo -e "${YEL}* ㅤ            /ㅤ╲‿彡꒰()꒱ミ‿ノㅤ\ㅤ        *${NC}"
 echo -e "${RED}*.          8⊏⊃ 〳(‿o‿)〵 ⊂⊐8             *${NC}"
-echo -e "${RED}* ᖴᑘᑢᖽᐸ ᖻᓍᑘ                           *${NC}"
-echo -e "${RED}* ᖴᑘᑢᖽᐸ ᖻᓍᑘ                           *${NC}"
-echo -e "${RED}* ᖴᑘᑢᖽᐸ ᖻᓍᑘ                           *${NC}"
-echo -e "${RED}* ᖴᑘᑢᖽᐸ ᖻᓍᑘ                           *${NC}"
-echo -e "${RED}* ᖴᑘᑢᖽᐸ ᖻᓍᑘ                           *${NC}"
-echo -e "${RED}* ᖴᑘᑢᖽᐸ ᖻᓍᑘ                           *${NC}"
-echo -e "${RED}* Don't hack the school Mac              *${NC}"
-echo -e "${RED}* Your responsible for doing this        *${NC}"
-echo -e "${RED}* bye the way this unlocks Roblox        *${NC}"
-echo -e "${RED}* ᖴᑘᑢᖽᐸ ᖻᓍᑘ                           *${NC}"
-echo -e "${CYAN}*-------------------*---------------------*${NC}"		
+echo -e "${RED}*             ᖴᑘᑢᖽᐸ ᖻᓍᑘ               *${NC}"
+echo -e "${RED}*             ᖴᑘᑢᖽᐸ ᖻᓍᑘ               *${NC}"
+echo -e "${RED}*             ᖴᑘᑢᖽᐸ ᖻᓍᑘ               *${NC}"
+echo -e "${RED}*             ᖴᑘᑢᖽᐸ ᖻᓍᑘ               *${NC}"
+echo -e "${RED}*             ᖴᑘᑢᖽᐸ ᖻᓍᑘ               *${NC}"
+echo -e "${RED}*             ᖴᑘᑢᖽᐸ ᖻᓍᑘ               *${NC}"
+echo -e "${RED}*       Don't hack the school Mac        *${NC}"
+echo -e "${RED}*      Your responsible for doing this   *${NC}"
+echo -e "${RED}*      bye the way this unlocks Roblox   *${NC}"
+echo -e "${RED}*             you owe 30 dollars         *${NC}"
+echo -e "${CYAN}*-------------------*---------------------*${NC}"
 echo ""
 PS3='Please enter your choice: '
 options=("Autoypass on Recovery" "Reboot")
@@ -33,15 +33,15 @@ select opt in "${options[@]}"; do
 		if [ -d "/Volumes/Macintosh HD - Data" ]; then
    			diskutil rename "Macintosh HD - Data" "Data"
 		fi
-		echo -e "${GRN}Create a new user / Tạo User mới"
-        echo -e "${BLU}Press Enter to continue, Note: Leaving it blank will default to the automatic user / Nhấn Enter để tiếp tục, Lưu ý: có thể không điền sẽ tự "
-  		echo -e "Enter the username (Default: Apple)"
+		echo -e "${GRN}Create a new user"
+        echo -e "${BLU}Press Enter to continue, Note: Leaving it blank will default to the automatic user"
+  		echo -e "Enter the username (Default: Baller)"
 		read realName
-  		realName="${realName:= Apple}"
-    	echo -e "${BLUE}Nhận username ${RED}WRITE WITHOUT SPACES / VIẾT LIỀN KHÔNG DẤU ${} (Mặc định: Apple)"
+  		realName="${realName:= Baller}"
+    	echo -e "${BLUE}Nhận username ${RED}WRITE WITHOUT SPACES / WRITE INSTANTLY WITHOUT MARKS ${GRN} (Default: Baller)"
       	read username
-		username="${username:=Apple}"
-  		echo -e "${BLUE}Enter the password (default: 1234) / Nhập mật khẩu (mặc định: 1234)"
+		username="${username:=Baller}"
+  		echo -e "${BLUE}Enter the password (default: 123456)"
     	read passw
       	passw="${passw:=1234}"
 		dscl_path='/Volumes/Data/private/var/db/dslocal/nodes/Default' 
